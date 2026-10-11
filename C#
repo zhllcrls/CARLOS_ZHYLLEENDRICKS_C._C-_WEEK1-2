@@ -1,0 +1,24 @@
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        //Rene Tahimik Lang
+        string name = "Zhylle Carlos";
+        string motto = "Time is gold";
+        string idol = "Upodworks";
+        int age = 19;
+        float height = 5;
+        bool isStudent = true;
+
+
+        double heightWithSix = height + 0.5;
+
+
+        Console.WriteLine("I am " + name + ", " + age
+            + " years old and My motto in life is "
+            + motto + ". I personally look up to my idol "
+            + idol + ". Am I currently a student? "
+            + isStudent + ". My height is "
+            + heightWithSix.ToString("0.0") + " ft.");
+    }
+}
